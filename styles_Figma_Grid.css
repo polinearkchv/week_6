@@ -1,0 +1,77 @@
+.body {
+  display: grid;
+  grid-template-columns: 610px 305px 305px;
+  grid-template-rows: 267px 267px 81px;
+  gap: 15px;
+}
+
+.h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 84px;
+}
+
+.p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.img {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  width: 610px;
+  height: 615px;
+}
+
+.approach {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  align-items: start;
+}
+
+.geo {
+  display: grid;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.schedule {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.experience {
+  display: grid;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.apply {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  justify-items: center;
+  align-items: center;
+  background-color: #0f265c;
+  width: 193px;
+  height: 45px;
+  color: #ffffff;
+}
+
+.price {
+  display: grid;
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  justify-items: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 193px;
+  height: 45px;
+}
